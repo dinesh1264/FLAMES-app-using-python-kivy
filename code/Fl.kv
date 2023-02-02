@@ -1,0 +1,50 @@
+floating:
+
+<floating@FloatLayout>:
+    canvas.before:
+        Color:
+            rgba: (0,0,0,1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label:
+        text: '[b]Flames Game[/b]'
+        markup: 'True'
+        valign: 'top'
+        halign: 'center'
+        color: 'red'
+        text_size: self.width-50 ,self.height-60
+        font_size: '40sp'
+    Label:
+        text: '[b]Enter your name[/b]'
+        markup: 'True'
+        valign: 'top'
+        halign: 'center'
+        text_size: self.width-50 ,self.height-250
+        font_size: '25sp'
+    TextInput:
+        id: name
+        pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+        size_hint: '0.75sp', '0.06sp'
+        multiline: 'False'
+        keep_ratio:'False'
+    Label:
+        text: '[b]Enter your crush name[/b]'
+        markup: 'True'
+        valign: 'top'
+        halign: 'center'
+        text_size: self.width-50 ,self.height-450
+        font_size: '25sp'
+    TextInput:
+        id: crush
+        pos_hint: {'center_x': 0.5, 'center_y': 0.55}
+        size_hint: '0.75sp', '0.06sp'
+        multiline: 'False'
+        keep_ratio:'False'
+    Button:
+        text: '[b]Find it[/b]'
+        markup: 'True'
+        background_color: 'FFC0CB'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.35}
+        size_hint: '0.75sp', '0.06sp'
+        on_press: root.find()
