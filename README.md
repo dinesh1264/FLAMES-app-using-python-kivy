@@ -20,3 +20,7 @@ Anyone who is willing to build their own flames app, can use this as reference a
     * pip install kivymd.<br/>
 * Then run your .py file on your vscode or python IDE.
 * Make sure the 2 files are on the same folder.
+
+### Screenshot
+
+![image](https://user-images.githubusercontent.com/73337534/219921853-67f6ec48-8469-423d-9ade-f1d83a7e8fc3.png)
