@@ -10,14 +10,12 @@ Anyone who is willing to build their own flames app, can use this as reference a
 
 * Python IDE.
 * kivy.
-* kivyMD.
 
 ### Steps to run the code:
 
 * Download python 3.x IDE, if you don't have any.
 * In command prompt,<br/>
     * pip install kivy.<br/>
-    * pip install kivymd.<br/>
 * Then run your .py file on your vscode or python IDE.
 * Make sure the 2 files are on the same folder.
 
